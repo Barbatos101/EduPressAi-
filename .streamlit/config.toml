@@ -1,0 +1,15 @@
+[server]
+maxUploadSize = 15
+enableCORS = false
+enableXsrfProtection = false
+headless = true
+port = 7860
+address = "0.0.0.0"
+
+[browser]
+gatherUsageStats = false
+serverAddress = "0.0.0.0"
+serverPort = 7860
+
+[theme]
+base = "light"
